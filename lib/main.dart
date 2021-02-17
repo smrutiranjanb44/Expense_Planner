@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Expense Planner'),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.red,
       ),
       body: Center(
         child: Text('Expense Planner'),
