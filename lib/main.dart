@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Expense Planner',
+      title: 'Expense_Planner',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Expense Planner'),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
       ),
       body: Center(
         child: Text('Expense Planner'),
